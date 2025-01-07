@@ -22,6 +22,7 @@ const Projects = () => {
  robots, integrating WebSockets and periodic polling for updates. Built a FastAPI backend to generate mock telemetry data for up to 10 robots, exposing RESTful and WebSocket APIs
  for real-time updates and seamless integration with the frontend."
           src={projectOne}
+          githubLink="https://github.com/Harshit9026/Fleet-dashboard-Frontend.git"
         />
         <ProjectsCard
           title=" MERN Stack Book Store with Inventory Management "
@@ -29,6 +30,7 @@ const Projects = () => {
  authentication and an inventory management system for seamless book tracking. Built an Admin Panel allowing admins to upload, edit, and delete books, ensuring efficient inventory management and
  content control."
           src={projectTwo}
+           githubLink="https://github.com/Harshit9026/Mern-Book-Store.git"
         />
         <ProjectsCard
           title=" Food Ordering Application "
@@ -36,6 +38,7 @@ const Projects = () => {
  for the frontend, Node.js and Express.js for the backend, and MongoDB for efficient data storage and management.
   Stripe Payment Integration and Order Management: Integrated Stripe API for secure online payments."
           src={projectThree}
+           githubLink="https://github.com/Harshit9026/Eat-On.git"
         />
       </div>
     </section>
