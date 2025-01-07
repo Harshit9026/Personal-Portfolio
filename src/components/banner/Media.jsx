@@ -15,9 +15,12 @@ const Media = () => {
             <span className="bannerIcon">
               <FaTwitter />
             </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a href="https://www.linkedin.com/in/harshit9026" target="_blank" rel="noopener noreferrer">
+                          <span className="bannerIcon">
+                            <FaLinkedinIn />
+                          </span>
+                        </a>
+
           </div>
         </div>
         <div>

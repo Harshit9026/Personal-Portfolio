@@ -19,14 +19,14 @@ const Projects = () => {
         <ProjectsCard
           title=" Robot Fleet Monitoring Dashboard "
           des="  Designed and implemented a responsive dashboard using React.js to visualize real-time telemetry data for a fleet of
- robots, integrating WebSockets and periodic polling for updates.– Built a FastAPI backend to generate mock telemetry data for up to 10 robots, exposing RESTful and WebSocket APIs
+ robots, integrating WebSockets and periodic polling for updates. Built a FastAPI backend to generate mock telemetry data for up to 10 robots, exposing RESTful and WebSocket APIs
  for real-time updates and seamless integration with the frontend."
           src={projectOne}
         />
         <ProjectsCard
           title=" MERN Stack Book Store with Inventory Management "
           des="  Developed a Book Store App using the MERN Stack (MongoDB, Express.js, React, Node.js) with features like
- authentication and an inventory management system for seamless book tracking.– Built an Admin Panel allowing admins to upload, edit, and delete books, ensuring efficient inventory management and
+ authentication and an inventory management system for seamless book tracking. Built an Admin Panel allowing admins to upload, edit, and delete books, ensuring efficient inventory management and
  content control."
           src={projectTwo}
         />
