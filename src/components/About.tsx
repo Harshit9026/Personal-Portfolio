@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import  { useEffect, useRef, useState } from 'react';
 import { Code, Coffee, Music, Camera } from 'lucide-react';
 
 const stats = [
@@ -77,7 +77,7 @@ export default function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 blur-3xl rounded-full"></div>
               <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+                src="/public/profile-pic-2.png"
                 alt="Alex Johnson"
                 className="relative w-80 h-80 mx-auto rounded-full object-cover border-4 border-white/20 shadow-2xl"
               />
