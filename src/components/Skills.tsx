@@ -31,7 +31,7 @@ const skillCategories = [
       { name: 'MongoDB', level: 80 },
       { name: 'PostgreSQL', level: 78 },
       { name: 'REST APIs', level: 85 },
-      { name: 'JWT Auth', level: 80 }
+      { name: 'GrpahQl', level: 80 }
     ]
   },
   {
