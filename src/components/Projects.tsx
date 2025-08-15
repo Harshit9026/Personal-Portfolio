@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import  { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Github, Calendar, Tag } from 'lucide-react';
 
 const projects = [
@@ -66,16 +66,15 @@ const projects = [
     category: 'AI/ML',
     date: '2025'
   },
-  // {
-  //   title: 'Competitive Programming Solutions',
-  //   description: 'Collection of optimized solutions for 500+ algorithmic problems from LeetCode, Codeforces, and other platforms. Includes detailed explanations and complexity analysis.',
-  //   image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg',
-  //   technologies: ['C++', 'Python', 'Java', 'Algorithms', 'Data Structures'],
-  //   liveUrl: '#',
-  //   githubUrl: '#',
-  //   category: 'Algorithms',
-  //   date: '2022-2024'
-  // },
+  {
+    title: 'AI SaaS Application',
+    description: 'Created an Ai SAAS Aplliaction which is used to perform  multiple tasks such as  Generate Articles, Remove Background, Remove Objects , And Review Resume...',
+    image: 'https://utfs.io/f/08857d36-2392-4182-9f6f-5fb93a8e8543-2ytnxz.jpg',
+    technologies: ['Next.js', 'Express' , 'Neon' , 'PostgresSql' , 'Node.js' , 'OpenAi'],
+    githubUrl: '#',
+    category: 'AI/ML',
+    date: '2025'
+  },
   // {
   //   title: 'Social Media Analytics',
   //   description: 'A comprehensive analytics platform for social media management with detailed insights, reporting, and automated scheduling.',

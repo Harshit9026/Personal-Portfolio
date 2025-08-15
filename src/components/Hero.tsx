@@ -1,6 +1,7 @@
 import  { useState, useEffect } from 'react';
 import { ArrowDown, Github, Linkedin, Mail, ExternalLink, Download } from 'lucide-react';
 
+
 const roles = [
   'Full Stack Developer',
   'Problem Solver',
