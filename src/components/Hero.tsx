@@ -147,14 +147,14 @@ export default function Hero() {
 
 const downloadResume = () => {
   const link = document.createElement('a');
-  link.href = '/Development-Resume.pdf'; // Public folder path
-  link.download = 'Harshit-Resume-new.pdf'; // Optional: set the filename
+  link.href = "\Harshit-Resume-new.pdf"; // Public folder path
+  link.download = "Harshit-Resume-new.pdf"; // Optional: set the filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 };
 
-//"C:\Users\harsh\Downloads\Harshit-Resume-new.pdf"
+// "C:\Users\harsh\Downloads\Harshit-Resume-new.pdf"
 
   // const handleSocialClick = (href: string) => {
   //   if (href === '#contact') {
