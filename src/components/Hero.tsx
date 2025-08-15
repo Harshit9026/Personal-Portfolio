@@ -5,7 +5,8 @@ import { ArrowDown, Github, Linkedin, Mail, ExternalLink, Download } from 'lucid
 const roles = [
   'Full Stack Developer',
   'Problem Solver',
-  'CS Graduate'
+  'Open Source Contributor',
+  'AI & ML Enthusiast'
 ];
 
 export default function Hero() {
@@ -147,12 +148,13 @@ export default function Hero() {
 const downloadResume = () => {
   const link = document.createElement('a');
   link.href = '/Development-Resume.pdf'; // Public folder path
-  link.download = 'Harshit_Shukla_Resume.pdf'; // Optional: set the filename
+  link.download = 'Harshit-Resume-new.pdf'; // Optional: set the filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 };
 
+//"C:\Users\harsh\Downloads\Harshit-Resume-new.pdf"
 
   // const handleSocialClick = (href: string) => {
   //   if (href === '#contact') {
