@@ -147,8 +147,8 @@ export default function Hero() {
 
 const downloadResume = () => {
   const link = document.createElement('a');
-  link.href = "\Harshit-Resume-new.pdf"; // Public folder path
-  link.download = "Harshit-Resume-new.pdf"; // Optional: set the filename
+  link.href = "/Harshit_Resume.pdf"; // exact file name
+  link.download = "Harshit-Resume.pdf"; // name for download
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
