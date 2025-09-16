@@ -1,6 +1,6 @@
 import  { useEffect, useRef, useState } from 'react';
 import { Code, Coffee, Music, Camera } from 'lucide-react';
-import Profilepic from "../assets/profile-pic-2.png"
+import Profilepic from "../assets/Gemini_Generated_Image_7f0b447f0b447f0b.png"
 
 const stats = [
   { label: 'Years Experience', value: '5+' },
